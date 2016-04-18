@@ -25,4 +25,5 @@ fi
 # Clean up the installation environment .
 # TODO Determine if removing packages might be bad here
 conda uninstall qt -n heroku-env --yes --force
+conda uninstall pyqt -n heroku-env --yes --force
 conda clean -pt --yes > /dev/null
