@@ -25,4 +25,4 @@ fi
 # Clean up the installation environment .
 # TODO Determine if removing packages might be bad here
 conda uninstall qt pyqt pyyaml sqlite tk yaml pycrypto python-dateutil pytz -n heroku-env --yes --force
-conda clean -pts --yes > /dev/null
+conda clean --all --yes > /dev/null
